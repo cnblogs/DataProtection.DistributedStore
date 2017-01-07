@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0.1",
+  "name": "DataProtection.DistributedStore",
+  "description": "Use IDistributedCache in Microsoft.Extensions.Caching.Distributed to store keys of Microsoft.AspNetCore.DataProtection.",
+  "projectUrl": "https://github.com/cnblogs/DataProtection.DistributedStore",
+  "authors": [ "cnblogs.com" ],
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cnblogs/DataProtection.DistributedStore"
+    },
+    "tags": [
+      "aspnetcore",
+      "dataprotection"
+    ]
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.DataProtection": "1.1.0",
+    "Microsoft.Extensions.Caching.Abstractions": "1.1.0",
+    "NETStandard.Library": "1.6.1"
+  },
+  "frameworks": {
+    "netstandard1.6": {}
+  },
+  "buildOptions": {
+    "allowUnsafe": true,
+    "nowarn": [
+      "CS1591"
+    ]
+  }
+}
